@@ -1,0 +1,53 @@
+@import "antd/dist/antd.css";
+
+* {
+  font-family: "Simply Cricket Cond Medium", Arial, Helvetica, sans-serif;
+}
+
+.form__wrapper {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.form-builder__element:hover,
+.form-builder__element:active,
+.form-builder__element:focus {
+  border-color: #60a630;
+  outline-color: #60a630;
+  --antd-wave-shadow-color: #60a630;
+}
+.form-builder__element.form-builder__input:hover,
+.form-builder__element.form-builder__input:active,
+.form-builder__element.form-builder__input:focus {
+  border-color: #60a630;
+  outline-color: #60a630;
+  --antd-wave-shadow-color: #60a630;
+  box-shadow: 0 0 0 2px rgb(96, 166, 48, 0.2);
+}
+.form-builder__button:hover {
+  color: #60a630;
+}
+.ant-select.ant-select-single.form-builder__element.form-builder__select:hover,
+.ant-select.ant-select-single.form-builder__element.form-builder__select:active,
+.ant-select.ant-select-single.form-builder__element.form-builder__select:focus {
+  border-color: #60a630;
+  outline-color: #60a630;
+  --antd-wave-shadow-color: #60a630;
+  /* box-shadow: 0 0 0 2px rgb(96, 166, 48, 0.2); */
+}
+.ant-select-selector.form-builder__element:hover,
+.ant-select-selector.form-builder__element:active,
+.ant-select-selector.form-builder__element:focus {
+  border-color: #60a630;
+  outline-color: #60a630;
+  --antd-wave-shadow-color: #60a630;
+  box-shadow: 0 0 0 2px rgb(96, 166, 48, 0.2);
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: #60a630;
+}
+ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #60a630;
+}

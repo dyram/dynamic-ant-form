@@ -1,0 +1,8 @@
+.span__card-number {
+  font-weight: 600;
+}
+
+.wrapper__card-number {
+  border: 1px solid #edebe9;
+  padding: 16px;
+}

@@ -1,0 +1,40 @@
+{
+  "schema": {},
+  "meta": {
+    "columns": 4,
+    "gutter": 10,
+    "fields": [
+      {
+        "key": "header",
+        "widget": "header",
+        "title": "Payment Form",
+        "colSpan": 4,
+        "fieldsetStyle": {
+          "fontWeight": 100
+        }
+      },
+      {
+        "key": "customCard",
+        "widget": "CardRadio",
+        "colSpan": 2
+      },
+      {
+        "key": "customCard2",
+        "widget": "CardRadio",
+        "colSpan": 2
+      },
+      {
+        "key": "names",
+        "widget": "select",
+        "options": ["jason", "basanth"],
+        "placeholder": "Select a name",
+        "label": "Name"
+      },
+      {
+        "bind": "preset",
+        "preset": "@@(()=>{console.log(hiii);})() ",
+        "children": "@@(() => { console.log(jason); })()"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": ["react", "starter"],
+  "main": "src/index.js",
+  "dependencies": {
+    "@craco/craco": "5.7.0",
+    "antd": "4.7.0",
+    "antd-form-builder": "2.1.1",
+    "craco-less": "1.17.0",
+    "crypto-js": "4.0.0",
+    "js-plugin": "1.0.7",
+    "lodash.get": "4.4.2",
+    "lodash.mapvalues": "4.6.0",
+    "lodash.merge": "4.6.2",
+    "lodash.omit": "4.5.0",
+    "lodash.pick": "4.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
